@@ -3,8 +3,8 @@ $color-gold: #ff9f43;
 $color-yellow: #feca57;
 
 $font-logo: 'Leckerli One', cursive;
-$font-text: 'Lato', sans-serif;
-$font-header: 'Merriweather', serif;
+$font-header: 'Lato', sans-serif;
+$font-text: 'Merriweather', serif;
 
 *, 
 *::before, 
@@ -38,7 +38,7 @@ body {
             a {
                 text-decoration: none;
                 padding: 20px;
-                font-family: $font-text;
+                font-family: $font-header;
                 color: #c8d6e5;
             }
         }
@@ -65,7 +65,7 @@ header {
     width: 100%;
     
     .page-title {
-        font-family: $font-header;
+        font-family: $font-text;
 		font-size: 40px;
         font-style: italic;
         font-weight: 300;
@@ -73,7 +73,7 @@ header {
         margin: 16px 0;
 	}
     .page-subtitle {
-        font-family: $font-text;
+        font-family: $font-header;
         font-size: 80px;
         color: white;
         font-weight: bold;
@@ -85,7 +85,7 @@ header {
 		text-align: center;
         text-decoration: none;
         color: white;
-        font-family: $font-text;
+        font-family: $font-header;
 	}
 	.btn {
 		display: inline-block;
@@ -93,7 +93,6 @@ header {
         margin: 16px auto 0 auto;
         padding: 16px;
         border-radius: 5px;
-        font-family: $font-text;
         font-size: 20px;
         text-align: center;
         text-decoration: none;
@@ -102,3 +101,4 @@ header {
         background: $color-yellow;
 	}
 }
+/* Services */

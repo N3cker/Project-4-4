@@ -1,0 +1,21 @@
+.navbar-brand {
+  font-size: 26px;
+  display: inline-block;
+  border: 3px solid blue;
+}
+
+.navigation .navbar {
+  border: 3px solid red;
+  display: inline-block;
+}
+
+.navigation .navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navigation .navbar ul li {
+  display: inline-block;
+}
+/*# sourceMappingURL=style.css.map */

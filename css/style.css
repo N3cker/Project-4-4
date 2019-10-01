@@ -50,7 +50,7 @@ section {
   color: #c8d6e5;
 }
 
-/* Header */
+/* Splash */
 header {
   background-image: url(/images/Golden-header-image.jpg);
   background-size: cover;
@@ -58,12 +58,12 @@ header {
   height: 750px;
 }
 
-.splash {
+header .splash {
   position: relative;
   height: 700px;
 }
 
-.splash-content {
+header .splash .splash-content {
   text-align: center;
   position: absolute;
   top: 50%;
@@ -72,7 +72,7 @@ header {
   width: 100%;
 }
 
-.splash-content .page-title {
+header .splash .splash-content .page-title {
   font-family: "Merriweather", serif;
   font-size: 40px;
   font-style: italic;
@@ -81,7 +81,7 @@ header {
   margin: 16px 0;
 }
 
-.splash-content .page-subtitle {
+header .splash .splash-content .page-subtitle {
   font-family: "Lato", sans-serif;
   font-size: 80px;
   color: white;
@@ -89,7 +89,7 @@ header {
   margin: 16px 0;
 }
 
-.splash-content a {
+header .splash .splash-content a {
   font-size: 20px;
   text-align: center;
   text-decoration: none;
@@ -97,13 +97,12 @@ header {
   font-family: "Lato", sans-serif;
 }
 
-.splash-content .btn {
+header .splash .splash-content .btn {
   display: inline-block;
   width: 200px;
   margin: 16px auto 0 auto;
   padding: 16px;
   border-radius: 5px;
-  font-size: 20px;
   text-align: center;
   text-decoration: none;
   cursor: pointer;
@@ -178,7 +177,7 @@ header {
   margin-bottom: 72px;
 }
 
-.card {
+.portfolio .row .card {
   position: relative;
   display: -ms-flexbox;
   display: flex;
@@ -190,29 +189,30 @@ header {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  margin-bottom: 36px;
 }
 
-.card img {
+.portfolio .row .card img {
   width: 100%;
   height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-.card-body {
+.portfolio .row .card .card-body {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
   padding: 1.25rem;
   text-align: center;
 }
 
-.card-body p {
+.portfolio .row .card .card-body p {
   font-size: 16px;
   margin: 0;
   font-style: italic;
 }
 
-.card-body h3 {
+.portfolio .row .card .card-body h3 {
   margin: 0;
 }
 

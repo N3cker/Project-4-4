@@ -113,4 +113,41 @@ header {
 }
 
 /* Services */
+.services .row {
+  text-align: center;
+  margin: 50px auto;
+}
+
+.services .row h1 {
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.services .row h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.services .row p {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+}
+
+.services .row .services-header {
+  font-size: 96px;
+}
+
+.services .row .fas {
+  font-size: 50px;
+  color: #feca57;
+  border: 5px solid #feca57;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+}
 /*# sourceMappingURL=style.css.map */

@@ -12,6 +12,10 @@ body {
   line-height: 1.7;
 }
 
+section {
+  padding: 48px;
+}
+
 /* Navigation */
 .navigation {
   display: -webkit-box;
@@ -118,7 +122,7 @@ header {
   margin: 50px auto;
 }
 
-.services .row h1 {
+.services .row h2 {
   font-family: "Lato", sans-serif;
   font-size: 40px;
   font-weight: bold;
@@ -137,10 +141,6 @@ header {
   font-size: 16px;
 }
 
-.services .row .services-header {
-  font-size: 96px;
-}
-
 .services .row .fas {
   font-size: 50px;
   color: #feca57;
@@ -149,5 +149,79 @@ header {
   width: 100px;
   height: 100px;
   line-height: 100px;
+}
+
+/* Portfolio  */
+.portfolio {
+  background: #f2f2f2;
+}
+
+.portfolio h2 {
+  margin: 96px 0 72px 0;
+  font-family: "Lato", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.portfolio h3 {
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.portfolio p {
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 72px;
+}
+
+.portfolio .row {
+  margin-bottom: 72px;
+}
+
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+          flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+.card img {
+  width: 100%;
+  height: 300px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.card-body {
+  -ms-flex: 1 1 auto;
+  -webkit-box-flex: 1;
+          flex: 1 1 auto;
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.card-body p {
+  font-size: 16px;
+  margin: 0;
+  font-style: italic;
+}
+
+.card-body h3 {
+  margin: 0;
 }
 /*# sourceMappingURL=style.css.map */
